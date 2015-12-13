@@ -12,7 +12,6 @@ depending on sorting order) element in the unsorted sublist, exchanging
 and moving the sublist boundaries one element to the right.
 """
 import __builtin__
-from test import test
 
 __author__ = "Justin Oliver"
 __email__ = "functionaln3rd@gmail.com"
@@ -65,4 +64,5 @@ def sort(aggr, cmp=None, key=None, reverse=False):
     return aggr
 
 if __name__ == "__main__":
+    from test import test
     test(sort)
