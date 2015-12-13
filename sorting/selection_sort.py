@@ -62,7 +62,3 @@ def sort(aggr, cmp=None, key=None, reverse=False):
             aggr[swap_index] = element
 
     return aggr
-
-if __name__ == "__main__":
-    from test import test
-    test(sort)

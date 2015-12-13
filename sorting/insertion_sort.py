@@ -34,7 +34,7 @@ def sort(aggr, cmp=None, key=None, reverse=False):
     """
     aggr = list(aggr)
 
-    for i in xrange(1, len(aggr)):        
+    for i in xrange(1, len(aggr)):
         for j in xrange(i, 0, -1):
             # Get the data to be compared
             if key:
@@ -62,7 +62,3 @@ def sort(aggr, cmp=None, key=None, reverse=False):
                 break
 
     return aggr
-
-if __name__ == "__main__":
-    from test import test
-    test(sort)
